@@ -27,7 +27,7 @@ int crear_conexion(char *ip, char* puerto)
 	// hints.ai_flags = AI_PASSIVE;
 
 	getaddrinfo(ip, puerto, &hints, &server_info);
-
+	// SI
 	// Ahora vamos a crear el socket.
 	int socket_cliente = 0;
 	socket_cliente = socket(server_info->ai_family,

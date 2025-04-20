@@ -16,10 +16,10 @@ int main(void)
 	/* ---------------- LOGGING ---------------- */
 
 	logger = iniciar_logger();
-
+	
 	// Usando el logger creado previamente
 	// Escribi: "Hola! Soy un log"
-	log_info(logger, "Hola! Soy el log");
+	log_info(logger, "Hola! Soy un log");
 
 	/* ---------------- ARCHIVOS DE CONFIGURACION ---------------- */
 
